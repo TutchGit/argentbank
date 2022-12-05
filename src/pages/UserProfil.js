@@ -23,7 +23,7 @@ function UserProfil() {
     useEffect(() => {
         axios.post(
         "http://localhost:3001/api/v1/user/profile",
-        state, { 
+        state, {
             headers: {
                 'Authorization': `Bearer ${token}`
         }
